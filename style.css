@@ -63,4 +63,110 @@ a.navbar-brand {
         background-color: white;
     }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+    #about{
+        height: 400px;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+/*----About-first-image---*/
+.about-image-first {
+    background-image: url('images/image-6.jpg');
+    height: 222px;
+    width: 100%;
+    transition: background 0.5s,transform 0.5s;
+    background-repeat: no-repeat;
+}
+.about-image-title1{
+    font-size: 18px;
+    padding-top: 24%;
+    margin-left: 4px;
+    font-weight: 500;
+}
+.about-image-title-2{
+    font-size: 15px;
+    padding-top: 14px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+@media(max-width:576px){
+    .about-image-first{
+        margin-top: 10px;
+    }
+    .about-image-title1{
+        font-size: 18px;
+    }
+}
+.about-image-first:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+/*----About-first-image-end---*/
+
+
+
+
+/*----About-second-image---*/
+.about-image-second {
+    background-image: url("images/image-7.jpg");
+    height: 222px;
+    width: 100%;
+    transition: background 0.5s,transform 0.5s;
+    background-repeat: no-repeat;
+}
+.about-second-title1{
+    font-size: 18px;
+    padding-top: 80px;
+    padding-left: 10px;
+}
+.about-second-2{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 5px;
+}
+@media(max-width:576px){
+    .about-image-second{
+        margin-top: 10px;
+    }
+}
+.about-image-second:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+/*----About-second-image-End--*/
+
+/*----About-therd-image--*/
+.about-image-therd {
+    background-image: url("images/image-8.jpg");
+    height: 222px;
+    width: 100%;
+    transition: background 0.5s,transform 0.5s;
+    background-repeat: no-repeat;
+}
+@media(max-width:576px){
+    .about-image-therd{
+        margin-top: 10px;
+    }
+}
+.about-image-therd:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+/*----About-therd-image-end--*/
+
+
+
+
+
 /*----END ABOUT-----*/
