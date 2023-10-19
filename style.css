@@ -137,13 +137,11 @@ a.navbar-brand {
     transition: background 0.5s, transform 0.5s;
     background-repeat: no-repeat;
 }
-
 .about-second-title1 {
     font-size: 18px;
     padding-top: 80px;
     padding-left: 10px;
 }
-
 .about-second-2 {
     margin-top: 20px;
     font-weight: 600;
@@ -242,7 +240,7 @@ a.navbar-brand {
 
 @media (max-width: 576px) {
     #essential {
-        height: 400px;
+        height: 650px;
         width: auto;
     }
 
@@ -320,3 +318,13 @@ a.navbar-brand {
 }
 
 /*---end essential--*/
+
+
+/*----SALE OFF----*/
+#Sale{
+    height: 500px;
+    width: auto;
+}
+
+
+/*----END SALE OFF----*/
