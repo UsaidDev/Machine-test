@@ -137,11 +137,13 @@ a.navbar-brand {
     transition: background 0.5s, transform 0.5s;
     background-repeat: no-repeat;
 }
+
 .about-second-title1 {
     font-size: 18px;
     padding-top: 80px;
     padding-left: 10px;
 }
+
 .about-second-2 {
     margin-top: 20px;
     font-weight: 600;
@@ -268,12 +270,14 @@ a.navbar-brand {
     background-position: center;
     transition: background 0.5s, transform 0.5s;
 }
+
 .essential-image-1:hover {
     transform: translateY(-10px);
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.15);
     transition: 0.3s;
 }
+
 .essential-image-2 {
     max-width: 100%;
     height: 300px;
@@ -321,23 +325,26 @@ a.navbar-brand {
 
 
 /*----SALE OFF----*/
-#Sale{
+#Sale {
     height: 500px;
     width: auto;
 
 }
-@media(max-width:576px){
-    #Sale{
+
+@media(max-width:576px) {
+    #Sale {
         height: 2600px;
         width: auto;
     }
 }
+
 @media (min-width: 577px) and (max-width: 992px) {
-    #Sale{
+    #Sale {
         height: 780px;
         width: auto;
     }
 }
+
 /*----END SALE OFF----*/
 
 
@@ -345,21 +352,69 @@ a.navbar-brand {
 
 
 /*----BRAND------*/
-#brand{
-    height: 300px;
+#brand {
+    height: 200px;
     width: auto;
 }
-@media(max-width:576px){
-    #brand{
-        height: 600px;
+
+@media(max-width:576px) {
+    #brand {
+        height: 340px;
         width: auto;
     }
 }
+
 @media (min-width: 577px) and (max-width: 992px) {
-    #brand{
-        height: 400px;
+    #brand {
+        height: 310px;
         width: auto;
 
     }
 }
+
 /*---END_BRAND---*/
+
+/*-----BLOG------*/
+#blog {
+    height: 600px;
+    width: auto;
+}
+
+@media(max-width:576px) {
+    #blog {
+        height: 1520px;
+        width: auto;
+    }
+}
+
+.blog-title {
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.blog-button {
+    border: 2px solid gray;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    height: auto;
+
+}
+.blog-img{
+    transition: 0.4s;
+}
+.blog-img:hover{
+    transition: background 0.5s, transform 0.5s;
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+/*-----END BLOG------*/
