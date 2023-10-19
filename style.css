@@ -324,7 +324,43 @@ a.navbar-brand {
 #Sale{
     height: 500px;
     width: auto;
+
 }
-
-
+@media(max-width:576px){
+    #Sale{
+        height: 2600px;
+        width: auto;
+    }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+    #Sale{
+        height: 780px;
+        width: auto;
+    }
+}
 /*----END SALE OFF----*/
+
+
+
+
+
+/*----BRAND------*/
+#brand{
+    height: 300px;
+    width: auto;
+}
+@media(max-width:576px){
+    #brand{
+        height: 600px;
+        width: auto;
+        background-color: red;
+    }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+    #brand{
+        height: 400px;
+        width: auto;
+        background-color: blue;
+    }
+}
+/*---END_BRAND---*/
