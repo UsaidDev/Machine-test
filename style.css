@@ -353,14 +353,13 @@ a.navbar-brand {
     #brand{
         height: 600px;
         width: auto;
-        background-color: red;
     }
 }
 @media (min-width: 577px) and (max-width: 992px) {
     #brand{
         height: 400px;
         width: auto;
-        background-color: blue;
+
     }
 }
 /*---END_BRAND---*/
